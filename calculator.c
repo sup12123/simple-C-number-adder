@@ -2,25 +2,21 @@
 
 int main () {
 
-int cock;
+double cock;
 
-int balls;
+double balls;
 
 printf("Type a number: \n");
 
-scanf("%d", &cock);
+scanf("%lf", &cock);
 
 printf("Type your second number: \n");
 
-scanf("%d", &balls);
+scanf("%lf", &balls);
 
-int sum = cock + balls;
+double sum = cock + balls;
 
-printf("%d", sum);
+printf("%lf", sum);
 
 return 0;
 }
-
-
-
-
